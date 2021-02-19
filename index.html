@@ -1,0 +1,24 @@
+<link rel="stylesheet" media="screen" href="b1njTimeline.css" />
+<ol id="timeline">
+  <li>
+    <time datetime="1991-10-01">July 1995</time>
+    <p>Naissance</p>
+    <div class="description">
+      <p>Description...</p>
+    </div>
+  </li>
+  <li>
+    <time datetime="1994-10">Septembre 1999</time>
+    <p>Rentrée des classes !</p>
+  </li>
+</ol>
+<script src="jquery-1.8.0.min.js"></script>
+<script src="moment.min.js"></script>
+<script src="jquery.b1njTimeline.js"></script>
+<script>
+  $(function () {
+    $("#timeline").b1njTimeline({
+      height: 600,
+    });
+  });
+</script>
